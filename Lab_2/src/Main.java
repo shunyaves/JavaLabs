@@ -6,7 +6,7 @@ public class Main
 
     public static void problem1()
     {
-        //наибольная подстрока без повторяющихся элементов
+        //наибольшая подстрока без повторяющихся элементов
 
         System.out.print("№1\nВведите строку: ");
         Scanner in = new Scanner(System.in);
@@ -86,7 +86,8 @@ public class Main
                     iter1++;
                 }
             }
-            else if (iter2 < arr2.length){
+            else if (iter2 < arr2.length)
+            {
                 res[k] = arr2[iter2];
                 iter2++;
             }
